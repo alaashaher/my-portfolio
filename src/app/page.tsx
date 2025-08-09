@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col md:flex-row items-start p-6 bg-white shadow-lg rounded-lg space-y-4 md:space-y-0 md:space-x-8">
+    <div className="flex flex-col container md:flex-row items-start p-6 m-auto bg-white shadow-lg rounded-lg space-y-4 md:space-y-0 md:space-x-8">
       {/* Profile Image */}
       <div className="flex-shrink-0">
 
@@ -18,9 +18,10 @@ export default function Home() {
 
       {/* Content */}
       <div>
-        <h1 className="text-3xl font-bold text-gray-800">
-          Frot End Developer
+      <h1 className="text-3xl font-bold text-gray-800">
+          Alaa shaher sobhy | Frot End Developer
         </h1>
+    
         <p className="mt-4 text-gray-600">
           I’m seeking to a passion to know and learn more, to find a place where I can apply my knowledge, work on many projects and gain more knowledge and experience in working, find new challenge to develop my experience.
           I have about 6 years experience in react.
