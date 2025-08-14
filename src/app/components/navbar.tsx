@@ -7,7 +7,7 @@ const Navbar = () => {
                 rounded-full border-rounded border border-green-500 px-10">
                 <ul className="flex space-x-6 text-gray-600">
                     <li>
-                        <a href="#" className="hover:border-green-500">
+                        <a href="/projects" className="hover:border-green-500">
                             Projects
                         </a>
                     </li>
