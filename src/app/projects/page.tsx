@@ -11,6 +11,9 @@ const page = () => {
           <a className='btn hover:cursor-pointer' href={project.link} target="_blank" rel="noopener noreferrer">
             Visit Website
           </a>
+          <a className='btn hover:cursor-pointer' href={`project-detailes/${project.id}`}  rel="noopener noreferrer">
+            View Detailes
+          </a>
         </div>
       ))}
     </div>
